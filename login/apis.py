@@ -154,7 +154,7 @@ def googleSignupAPI(request):
             cName = user.name + " Cloud"
             c = createCloud(user, cName)
             resp = {"userAuth": authToken, "user": userSerializer(
-                user).data, 'cloud': cloudSerializer(c).data}
+                user).data, 'cloud': c}
             return Response(resp)
         except ValueError:
             # Invalid token

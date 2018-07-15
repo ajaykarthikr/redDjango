@@ -10,7 +10,7 @@ urlpatterns = [
     url(r'^api/v1/login/$', userLoginAPI),
     url(r'^api/v1/login/signup/$', signupAPI),
     url(r'^api/v1/login/signup/google/$', googleSignupAPI),
-    url(r'^api/v1/login/gooogle/$', googleLoginAPI),
+    url(r'^api/v1/login/google/$', googleLoginAPI),
     #  url(r'^v1/node_api/$', testMessage),
 ]
 
