@@ -1,0 +1,15 @@
+django==1.11.8
+
+djangorestframework
+
+psycopg2
+
+PyJwt
+
+pyCrypto
+
+boto3
+
+google-auth
+
+requests
